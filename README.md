@@ -57,21 +57,46 @@ jupyter notebook
 
 # La méthode recommandée est d'utiliser le MySQL Installer.
 
-Téléchargement : Allez sur le site officiel de MySQL et téléchargez le "Web Installer".
+Étape 1 : Allez à la page de MySQL Workbench sur Academic Software et cliquez sur le bouton 'Télécharger MySQL Workbench' pour télécharger le logiciel.
 
-Lancement : Exécutez le fichier .msi.
+•   le site officiel https://dev.mysql.com/downloads/workbench/, sélectionnez la version Windows (fichier .msi) et téléchargez-la. MySQL Server, optez pour l’installateur web complet depuis https://dev.mysql.com/downloads/installer/ pour inclure le serveur, Workbench et Shell en une seule fois.
 
-Choix du type d'installation :
+Étape 2 : Ouvrez le fichier d'installation MSI dans votre dossier Téléchargements pour démarrer l'installation. Cliquez sur Next pour continuer.
 
-Developer Default : Installe tout (Serveur, Shell, Workbench pour l'interface graphique).
+Étape 3 : Cliquez sur Next pour installer MySQL Workbench à l'emplacement standard. Si vous le souhaitez, vous pouvez également modifier le chemin d'installation.
 
-Server only : Uniquement le serveur de base de données.
+Étape 4 : Cliquez sur Next pour installer le programme entier ou cochez Custom pour les options avancées.
+cochez Custom pour les options avancées: 
+•	MySQL Server
+•	MySQL Workbench
+•	MySQL Shell
+•	Documentation
+•	etc.
+Cochez MySQL Server (essentiel pour la base de données), cliquez sur la flèche droite (→) pour l’ajouter.
+Cochez MySQL Workbench (interface graphique), flèche droite.
 
-Configuration : * Laissez le port par défaut (3306).
+Étape 5 : Cliquez sur Install pour démarrer l'installation.
+Configuration du serveur MySQL
+Pendant l’installation du serveur 
+•   Laissez le port par défaut 3306.
+•   Choisissez Standard Configuration pour une config simple.
+•   Sélectionnez Use Strong Password Encryption pour la sécurité.
+•   Définissez un mot de passe root robuste (mélange lettres, chiffres, symboles) et notez-le bien !
+•   Cochez Configure MySQL as a Windows Service pour un démarrage automatique au boot.
+•   Activez Démarrez MySQL Server au démarrage du système.
+Cliquez Next, Execute puis Finish.
 
-Important : Choisissez un mot de passe robuste pour l'utilisateur root et notez-le bien !
+Étape 6 : Cliquez sur Finish pour terminer l'installation et démarrer MySQL Workbench. Le logiciel est maintenant installé et prêt à l'emploi.
+Une fois l’installation terminée, 
+•   cliquez Finish. 
+•   Lancez MySQL Workbench depuis le menu Démarrer. 
+Créez une connexion :
+•   Cliquez sur le + près de « MySQL Connections ».
+•   Nom : « Localhost », Hôte : localhost, Port : 3306, Utilisateur : root, Mot de passe : celui choisi.
+•   Testez la connexion (elle doit réussir), puis OK pour se connecter.
 
-Service Windows : Laissez l'option "Configure MySQL as a Windows Service" cochée pour qu'il démarre avec l'ordinateur.
+
+
 
 
 # importer ClassicModels(explique)
