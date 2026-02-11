@@ -1,0 +1,29 @@
+# === BASE DE DONNÉES ===
+mysql-connector-python==8.1.0
+SQLAlchemy==2.0.23
+
+# === ANALYSE DE DONNÉES ===
+pandas==2.1.4
+numpy==1.24.3
+scipy==1.11.4
+scikit-learn==1.3.2
+
+# === VISUALISATION ===
+matplotlib==3.8.0
+seaborn==0.13.0
+plotly==5.18.0
+
+# === NOTEBOOKS ===
+jupyter==1.0.0
+ipykernel==6.26.0
+ipywidgets==8.1.1
+
+# === UTILITAIRES ===
+python-dotenv==1.0.0
+openpyxl==3.1.2
+xlrd==2.0.1
+
+# === ANALYSE AVANCÉE ===
+statsmodels==0.14.0
+networkx==3.2.1
+mlxtend==0.22.0  # Pour les règles d'association

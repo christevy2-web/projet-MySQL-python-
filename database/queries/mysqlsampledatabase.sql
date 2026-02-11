@@ -8,7 +8,7 @@
 CREATE DATABASE  IF NOT EXISTS classicmodels;
 
 /* Switch to the classicmodels database */
-USE classicmodels;
+-- USE classicmodels;
 
 /* Drop existing tables  */
 DROP TABLE IF EXISTS productlines;
@@ -28,6 +28,7 @@ CREATE TABLE productlines (
   image mediumblob,
   PRIMARY KEY (productLine)
 );
+SELECT * FROM productlines;
 
 CREATE TABLE products (
   productCode varchar(15),
@@ -42,7 +43,7 @@ CREATE TABLE products (
   PRIMARY KEY (productCode),
   FOREIGN KEY (productLine) REFERENCES productlines (productLine)
 );
-
+SELECT * FROM products;
 CREATE TABLE offices (
   officeCode varchar(10),
   city varchar(50) NOT NULL,
@@ -87,6 +88,9 @@ CREATE TABLE customers (
   PRIMARY KEY (customerNumber),
   FOREIGN KEY (salesRepEmployeeNumber) REFERENCES employees (employeeNumber)
 );
+
+SELECT * FROM customers;
+
 
 CREATE TABLE payments (
   customerNumber int,
