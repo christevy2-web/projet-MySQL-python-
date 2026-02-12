@@ -14,7 +14,7 @@ class DatabaseConnector:
             'host': os.getenv('DB_HOST', 'localhost'),
             'user': os.getenv('DB_USER', 'root'),
             'password': os.getenv('DB_PASSWORD', 'Christevy'),
-            'database': os.getenv('DB_NAME', 'classicmodels') # Nom de ta base
+            'database': os.getenv('DB_NAME', 'classicmodels')
         }
         try:
             self.pool = mysql.connector.pooling.MySQLConnectionPool(
