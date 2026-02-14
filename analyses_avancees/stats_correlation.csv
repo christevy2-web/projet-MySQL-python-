@@ -1,0 +1,3 @@
+,correlation,p_value,significatif,n_observations
+prix_vs_quantite,0.02268875506933515,0.23249462392356593,False,2771
+delai_livraison_vs_score_satisfaction,-0.9282185451834846,0.0,True,2771

@@ -1,0 +1,40 @@
+projet/
+├── database/
+│   ├── schema/
+│   │   └── EER Diagram.mwb
+│   ├── queries/
+│   │   ├── mysqlsampledatabase.sql
+│   │   ├── PARTIE_2_REQUÊTES SQL AVANCÉES.sql
+│   │   ├── projet_sql_py.sql
+│   │   └── PARTIE_1_REQUÊTES SQL DE BASE.sql
+│
+├── src/
+│   ├── database/
+│   │   ├── __init__.py
+│   │   ├── connector.py
+│   │   └── config.py
+│   ├── analysis/
+│   │   ├── __pycache__
+│   │   └── rapport_performance.txt
+│   └── exports/
+│
+├── notebooks/
+│   ├── exploratory_analysis.ipynb
+│   ├── visualizations.ipynb
+│   └── advanced_analysis.ipynb
+├── visualizations/
+│   ├── evolution_ventes_temps.png
+│   ├── repartition_geographique.png
+│   └── 
+├── analyses_avancees/
+│   ├── analyse_rfm.png
+│   ├── segmentation_rfm.csv
+│   └── 
+├── docs/
+│   └── documentation.md
+├── reports/
+│   └── rapport_final.pdf
+├── config/
+│   └── .env.example
+├── requirements.txt
+└── README.md

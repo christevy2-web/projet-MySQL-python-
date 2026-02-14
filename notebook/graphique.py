@@ -1,3 +1,4 @@
+
 import pandas as pd
 import mysql.connector
 import matplotlib.pyplot as plt
@@ -71,9 +72,6 @@ plt.ylabel("Montant en USD")
 plt.tight_layout()
 plt.savefig('visualizations/ca_panier_moyen.png')
 plt.show()
-
-
-
 
 
 

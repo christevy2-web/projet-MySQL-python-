@@ -1,0 +1,24 @@
+============================================================
+RAPPORT DE PERFORMANCE COMMERCIALE
+============================================================
+Date: 2026-02-14
+Nombre d'employés analysés: 15
+
+🏆 TOP 3 COMMERCIAUX:
+  1. Gerard Hernandez
+     • CA: $1,211,512.45
+     • Clients: 7
+
+  2. Leslie Jennings
+     • CA: $1,029,300.99
+     • Clients: 6
+
+  3. Pamela Castillo
+     • CA: $868,220.55
+     • Clients: 10
+
+📊 STATISTIQUES D'ENSEMBLE:
+  • CA total: $9,195,760.82
+  • CA moyen par employé: $613,050.72
+  • Clients totaux: 98
+  • Clients moyens par employé: 6.5

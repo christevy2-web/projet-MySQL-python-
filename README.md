@@ -49,10 +49,16 @@ echo "DB_NAME=" >> .env
 --------------------------------------------------------------------------------
 Étape 4 : Vérification et Lancement
 # 1. Vérifier que les bibliothèques sont là
-pip list | findstr "mysql pandas plotly"
+pip list | findstr "mysql pandas plotly".
 
-# 3. Ou lancer Jupyter pour la partie analyse
-jupyter notebook
+
+# EXECUTE LE CODE PYTHON
+•   Connection.py
+•   graphique.py
+•   databae_connector.py
+•   database_visualizer.py
+•   analyse_avancees.py
+•   analyse_main.py
 
 
 # La méthode recommandée est d'utiliser le MySQL Installer.
